@@ -7,7 +7,6 @@ for _ in range(testcase):
     coins = list(map(int, input().split()))
     m = int(input())
 
-    # memoization을 위한 리스트 선언
     dp = [0] * (m + 1)
     dp[0] = 1
 

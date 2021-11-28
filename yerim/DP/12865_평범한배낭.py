@@ -12,7 +12,7 @@ for i in range(n): # w, v
         if dp[j] < max_value:
             dp[j] = max_value
 
-print(dp) # 물건을 1개만 넣어야하는데 n=5일때 5개까지 들어가는 오류 발생
+print(dp) # 물건을 1개만 넣어야하는데 n=5일때 5개까지 들어가는 오류 발생 => 2차원배열로 만들기
 
 # 반례 
 # 3 5
