@@ -39,5 +39,6 @@ while products:
         products.remove(product)
         maximum = 0
         ans += 1
+        print(multi_tab, product, products)
 
 print(ans)
